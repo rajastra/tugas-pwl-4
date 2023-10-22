@@ -15,6 +15,7 @@ requires = [
     'pyramid_debugtoolbar',
     'PyJWT',
     'pyramid_jwt',
+    'pymysql',
     'waitress',
     'alembic',
     'pyramid_retry',
