@@ -13,6 +13,8 @@ requires = [
     'pyramid',
     'pyramid_jinja2',
     'pyramid_debugtoolbar',
+    'PyJWT',
+    'pyramid_jwt',
     'waitress',
     'alembic',
     'pyramid_retry',

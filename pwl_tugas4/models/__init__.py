@@ -5,7 +5,8 @@ import zope.sqlalchemy
 
 # Import or define all models here to ensure they are attached to the
 # ``Base.metadata`` prior to any initialization routines.
-from .mymodel import MyModel  # flake8: noqa
+from .user import User  # flake8: noqa
+from .movie import Movie  # flake8: noqa
 
 # Run ``configure_mappers`` after defining all of the models to ensure
 # all relationships can be setup.
@@ -88,7 +89,7 @@ def includeme(config):
     """
     Initialize the model for a Pyramid app.
 
-    Activate this setup using ``config.include('pwl_tugas4.models')``.
+    Activate this setup using ``config.include('tutorial.models')``.
 
     """
     settings = config.get_settings()
