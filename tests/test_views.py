@@ -1,6 +1,6 @@
-from pwl_tugas4 import models
-from pwl_tugas4.views.default import my_view
-from pwl_tugas4.views.notfound import notfound_view
+from pwl_final import models
+from pwl_final.views.default import my_view
+from pwl_final.views.notfound import notfound_view
 
 
 def test_my_view_failure(app_request):

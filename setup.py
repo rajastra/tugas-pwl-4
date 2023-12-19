@@ -32,7 +32,7 @@ tests_require = [
 ]
 
 setup(
-    name='pwl_tugas4',
+    name='pwl_final',
     version='0.0',
     description='pwl tugas4',
     long_description=README + '\n\n' + CHANGES,
@@ -55,10 +55,10 @@ setup(
     install_requires=requires,
     entry_points={
         'paste.app_factory': [
-            'main = pwl_tugas4:main',
+            'main = pwl_final:main',
         ],
         'console_scripts': [
-            'initialize_pwl_tugas4_db=pwl_tugas4.scripts.initialize_db:main',
+            'initialize_pwl_final_db=pwl_final.scripts.initialize_db:main',
         ],
     },
 )

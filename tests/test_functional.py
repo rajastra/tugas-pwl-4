@@ -1,4 +1,4 @@
-from pwl_tugas4 import models
+from pwl_final import models
 
 def test_my_view_success(testapp, dbsession):
     model = models.MyModel(name='one', value=55)

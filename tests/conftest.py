@@ -9,9 +9,9 @@ import pytest
 import transaction
 import webtest
 
-from pwl_tugas4 import main
-from pwl_tugas4 import models
-from pwl_tugas4.models.meta import Base
+from pwl_final import main
+from pwl_final import models
+from pwl_final.models.meta import Base
 
 
 def pytest_addoption(parser):

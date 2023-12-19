@@ -3,7 +3,7 @@ from alembic import context
 from pyramid.paster import get_appsettings, setup_logging
 from sqlalchemy import engine_from_config
 
-from pwl_tugas4.models.meta import Base
+from pwl_final.models.meta import Base
 
 config = context.config
 

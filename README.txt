@@ -7,7 +7,7 @@ Getting Started
 - Change directory into your newly created project if not already there. Your
   current directory should be the same as this README.txt file and setup.py.
 
-    cd pwl_tugas4
+    cd pwl_final
 
 - Create a Python virtual environment, if not already created.
 
@@ -33,7 +33,7 @@ Getting Started
 
 - Load default data into the database using a script.
 
-    env/bin/initialize_pwl_tugas4_db development.ini
+    env/bin/initialize_pwl_final_db development.ini
 
 - Run your project's tests.
 

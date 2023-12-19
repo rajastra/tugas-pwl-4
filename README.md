@@ -38,7 +38,7 @@ alembic -c development.ini upgrade head
 6. load database
 
 ```bash
-initialize_pwl_tugas4_db development.ini
+initialize_pwl_final_db development.ini
 ```
 
 5. run
